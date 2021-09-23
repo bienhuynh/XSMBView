@@ -1,4 +1,4 @@
-﻿d3https://raw.githubusercontent.com/bienhuynh/XSMBView/main/data/resultlotterytable.json", function (error, data) {
+﻿d3.json("https://raw.githubusercontent.com/bienhuynh/XSMBView/main/data/resultlotterytable.json", function (error, data) {
     if (error)
         throw error;
     var _64s = ['01', '02', '03', '04', '05', '06', '07', '08', '09', '10',

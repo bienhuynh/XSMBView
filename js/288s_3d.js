@@ -83,7 +83,7 @@ var start_point = 1;
 var ctx1 = document.getElementById('myChart1');
 
 
-d3https://raw.githubusercontent.com/bienhuynh/XSMBView/main/data/resultlotterytable.json", function (error, data) {
+d3.json("https://raw.githubusercontent.com/bienhuynh/XSMBView/main/data/resultlotterytable.json", function (error, data) {
     if (error)
         throw error;
 

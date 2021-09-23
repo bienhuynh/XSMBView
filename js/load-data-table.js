@@ -27,7 +27,7 @@ var start_point = 10;
 var start_point_x2_x3 = 100;
 var profitbymonthchart8_1 = [];
 
-d3https://raw.githubusercontent.com/bienhuynh/XSMBView/main/data/result_predict.json", function (error, data) {
+d3.json("https://raw.githubusercontent.com/bienhuynh/XSMBView/main/data/result_predict.json", function (error, data) {
     if (error)
         throw error;
     var table = $('.itable>tbody');

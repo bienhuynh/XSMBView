@@ -50,7 +50,10 @@ d3.json("https://raw.githubusercontent.com/bienhuynh/XSMBView/main/data/result_f
             var topvalue = (loto.IsTrue ? '(' + loto.LotoValue + ')' : loto.LotoValue) + ' ';
             rl_html += '<td class="' + (loto.IsTrue ? "text-true" : "text-fail") + '" data-title="' + 'L' + (col) + '">' + topvalue + '</td>';
         });
-        rl_html += '<td data-title="Date Create">' + element.TimePredict + '</td>';
+        var date = new Date(element.TimePredict);
+        var newdate = date.getFullYear() + '/' + (date.getMonth() + 1) + '/' + date.getDate();
+
+        rl_html += '<td data-title="Date Create">' + newdate + '</td>';
         rl_html += '</tr>';
         html += rl_html;
     });

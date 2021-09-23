@@ -1,4 +1,4 @@
-﻿d3.json("data/resultlotterytable.json", function (error, data) {
+﻿d3https://raw.githubusercontent.com/bienhuynh/XSMBView/main/data/resultlotterytable.json", function (error, data) {
     if (error)
         throw error;
     //create th

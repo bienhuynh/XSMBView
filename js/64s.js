@@ -36,7 +36,7 @@ var dayoffs = ['2020-01-24', '2020-01-25', '2020-01-26', '2020-01-27', '2020-04-
     , '2020-04-21', '2020-04-22', '2020-04-23'];
 $('#_64s_str').text("Dàn số");
 var _64s = [12, 14, 15, 17, 19, 21, 23, 24, 25, 26, 27, 28, 29, 31, 32, 34, 35, 36, 37, 38, 39, 41, 42, 43, 45, 46, 47, 48, 49, 51, 52, 53, 54, 56, 57, 58, 59, 61, 62, 63, 64, 65, 67, 68, 69, 71, 72, 73, 74, 75, 76, 78, 79, 81, 82, 83, 84, 85, 87, 89, 92, 93, 94, 95, 97];
-d3.json("data/resultlotterytable.json", function (error, data) {
+d3https://raw.githubusercontent.com/bienhuynh/XSMBView/main/data/resultlotterytable.json", function (error, data) {
     if (error)
         throw error;
     //var _64s = [01, 02, 03, 04, 05, 06, 07, 08, 09, 10,

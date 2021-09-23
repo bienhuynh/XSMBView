@@ -46,7 +46,7 @@ function calulatepercentwin(data) {
     return percentwin100lo;
 }
 
-d3.json("data/result_full_predict.json", function (error, data) {
+d3.json("https://raw.githubusercontent.com/bienhuynh/XSMBView/main/data/result_full_predict_9_2021.json", function (error, data) {
     if (error)
         throw error;
 

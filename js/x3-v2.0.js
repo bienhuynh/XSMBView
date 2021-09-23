@@ -462,7 +462,7 @@ function mainstatics(data) {
     datax2statics.push(datax3statics_elment);
 }
 
-d3.json("data/result_full_predict.json", function (error, data) {
+d3.json("https://raw.githubusercontent.com/bienhuynh/XSMBView/main/data/result_full_predict_9_2021.json", function (error, data) {
     if (error)
         throw error;
     dataglobal = data;

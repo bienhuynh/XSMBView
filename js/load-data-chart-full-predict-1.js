@@ -268,7 +268,7 @@ function mainstatics(data, indexlotos) {
     $('#percent').text((oychart4[oychart4.length - 1]).toString() + '%');
 }
 
-d3.json("data/result_full_predict.json", function (error, data) {
+d3.json("https://raw.githubusercontent.com/bienhuynh/XSMBView/main/data/result_full_predict_9_2021.json", function (error, data) {
     if (error)
         throw error;
     globaldata = data;

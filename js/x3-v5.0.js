@@ -447,7 +447,7 @@ function mainstatics(data) {
     datax2statics.push(datax3statics_elment);
 }
 
-d3.json("https://raw.githubusercontent.com/bienhuynh/XSMBView/main/data/result_full_predict_07_2021.json", function (error, data) {
+d3.json("https://raw.githubusercontent.com/bienhuynh/XSMBView/main/data/result_full_predict_06_2021.json", function (error, data) {
     if (error)
         throw error;
     dataglobal = data;

@@ -181,7 +181,7 @@ function calulatepercentwin(data) {
     percentwin100lo.sort(function (a, b) { return b.percent - a.percent });
 }
 
-d3.json("https://raw.githubusercontent.com/bienhuynh/XSMBView/main/data/result_full_predict_07_2021.json", function (error, data) {
+d3.json("https://raw.githubusercontent.com/bienhuynh/XSMBView/main/data/result_full_predict_08_2021.json", function (error, data) {
     if (error)
         throw error;
     globaldata = data;

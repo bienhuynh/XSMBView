@@ -122,7 +122,7 @@ d3.json("https://raw.githubusercontent.com/bienhuynh/XSMBView/main/data/resultlo
     //oxy for predict
     var predicts_col_g00 = [];
     var predicts_col_g11 = [];
-    for (var iday = datelotterys.length - 1 - 32 - 1400; iday >= 0; iday--) {
+    for (var iday = datelotterys.length - 1; iday >= 0; iday--) {
         _64s.push(["-1", "-2"]);
         _64s.push(["-1", "-2"]);
         var date = datelotterys[iday];

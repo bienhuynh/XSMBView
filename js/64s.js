@@ -197,7 +197,7 @@ d3.json("https://raw.githubusercontent.com/bienhuynh/XSMBView/main/data/resultlo
 
     //chart
     var myChart3 = new Chart(ctx3, {
-        type: 'bar',
+        type: 'line',
         data: {
             labels: oxchart3,
             datasets: [{
@@ -222,7 +222,7 @@ d3.json("https://raw.githubusercontent.com/bienhuynh/XSMBView/main/data/resultlo
 
     //chart
     var myChart4 = new Chart(ctx4, {
-        type: 'bar',
+        type: 'line',
         data: {
             labels: oxchart4,
             datasets: [{
@@ -247,7 +247,7 @@ d3.json("https://raw.githubusercontent.com/bienhuynh/XSMBView/main/data/resultlo
 
     //chart
     var myChart5 = new Chart(ctx5, {
-        type: 'bar',
+        type: 'line',
         data: {
             labels: oxchart5,
             datasets: [{

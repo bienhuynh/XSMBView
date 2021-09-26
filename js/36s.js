@@ -81,7 +81,7 @@ d3.json("https://raw.githubusercontent.com/bienhuynh/XSMBView/main/data/resultlo
     var _5day = 0;
     oychart6.push(oychart6[oychart6.length - 1]);
     oychart7.push(oychart7[oychart7.length - 1]);
-    for (var iday = datelotterys.length - 1 - 2000; iday >= 0; iday--) {
+    for (var iday = datelotterys.length - 1; iday >= 0; iday--) {
         _5day += 1;
         var date = datelotterys[iday];
         var resultlotterybydate = [];

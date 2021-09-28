@@ -65,7 +65,7 @@ d3.json("https://raw.githubusercontent.com/bienhuynh/XSMBView/main/data/result_p
             oxchart1.push(datePredict);
             element.LotoPredicts.forEach(function (loto) {
                 topvalue += (loto.IsTrue ? '(' + loto.LotoValue + ')' : loto.LotoValue) + ' ';
-                oychart1.push(oychart1[oychart1.length - 1] + (loto.IsTrue ? (99 - 27) * loto.QtyLoto * start_point : -27 * start_point));
+                oychart1.push(oychart1[oychart1.length - 1] + (loto.IsTrue ? (99 * loto.QtyLoto - 27) * start_point : -27 * start_point));
             });
             top1value.push(topvalue);
         }
@@ -84,7 +84,7 @@ d3.json("https://raw.githubusercontent.com/bienhuynh/XSMBView/main/data/result_p
             var numberlotowin = 0;
             element.LotoPredicts.forEach(function (loto) {
                 topvalue += (loto.IsTrue ? '(' + loto.LotoValue + ')' : loto.LotoValue) + ' ';
-                profit += (loto.IsTrue ? (99 - 27) * loto.QtyLoto * start_point : -27 * start_point);
+                profit += (loto.IsTrue ? (99 * loto.QtyLoto - 27) * start_point : -27 * start_point);
                 if (loto.IsTrue)
                     numberlotowin++;
             });
@@ -113,7 +113,7 @@ d3.json("https://raw.githubusercontent.com/bienhuynh/XSMBView/main/data/result_p
             var lototruenumber = 0;
             element.LotoPredicts.forEach(function (loto) {
                 topvalue += (loto.IsTrue ? '(' + loto.LotoValue + ')' : loto.LotoValue) + ' ';
-                profit += (loto.IsTrue ? (99 - 27) * loto.QtyLoto * start_point : -27 * start_point);
+                profit += (loto.IsTrue ? (99 * loto.QtyLoto - 27) * start_point : -27 * start_point);
                 if (loto.IsTrue) {
                     lototruenumber++;
                 }
@@ -163,7 +163,7 @@ d3.json("https://raw.githubusercontent.com/bienhuynh/XSMBView/main/data/result_p
             var profit = 0;
             element.LotoPredicts.forEach(function (loto) {
                 topvalue += (loto.IsTrue ? '(' + loto.LotoValue + ')' : loto.LotoValue) + ' ';
-                profit += (loto.IsTrue ? (99 - 27) * loto.QtyLoto * start_point : -27 * start_point);
+                profit += (loto.IsTrue ? (99 * loto.QtyLoto - 27) * start_point : -27 * start_point);
             });
             oychart4.push(oychart4[oychart4.length - 1] + profit);
             top4value.push(topvalue);
@@ -181,7 +181,7 @@ d3.json("https://raw.githubusercontent.com/bienhuynh/XSMBView/main/data/result_p
             var profit = 0;
             element.LotoPredicts.forEach(function (loto) {
                 topvalue += (loto.IsTrue ? '(' + loto.LotoValue + ')' : loto.LotoValue) + ' ';
-                profit += (loto.IsTrue ? (99 - 27) * loto.QtyLoto * start_point : -27 * start_point);
+                profit += (loto.IsTrue ? (99 * loto.QtyLoto - 27) * start_point : -27 * start_point);
             });
             oychart5.push(oychart5[oychart5.length - 1] + profit);
             top5value.push(topvalue);
@@ -199,7 +199,7 @@ d3.json("https://raw.githubusercontent.com/bienhuynh/XSMBView/main/data/result_p
             var profit = 0;
             element.LotoPredicts.forEach(function (loto) {
                 topvalue += (loto.IsTrue ? '(' + loto.LotoValue + ')' : loto.LotoValue) + ' ';
-                profit += (loto.IsTrue ? (99 - 27) * loto.QtyLoto * start_point : -27 * start_point);
+                profit += (loto.IsTrue ? (99 * loto.QtyLoto - 27) * start_point : -27 * start_point);
             });
             oychart6.push(oychart6[oychart6.length - 1] + profit);
             top6value.push(topvalue);
@@ -218,7 +218,7 @@ d3.json("https://raw.githubusercontent.com/bienhuynh/XSMBView/main/data/result_p
             var profit = 0;
             element.LotoPredicts.forEach(function (loto) {
                 topvalue += (loto.IsTrue ? '(' + loto.LotoValue + ')' : loto.LotoValue) + ' ';
-                profit += (loto.IsTrue ? (99 - 27) * loto.QtyLoto * start_point : -27 * start_point);
+                profit += (loto.IsTrue ? (99 * loto.QtyLoto - 27) * start_point : -27 * start_point);
             });
             oychart7.push(oychart7[oychart7.length - 1] + profit);
             top7value.push(topvalue);

@@ -1,6 +1,6 @@
 {
   "version": "1.5.1.0",
-  "url": "https://github.com/bienhuynh/XSMBView/raw/main/robot-source/ROBOT%20XSMB%20-%20Ver1.5.1.1.zip",
+  "url": "https://github.com/bienhuynh/XSMBView/raw/main/robot-source/netcoreapp3.1.zip",
   "changelog": "https://github.com/ravibpatel/AutoUpdater.NET/releases",
   "mandatory": {
     "value": true,
@@ -8,7 +8,7 @@
     "mode": 1
   },
   "checksum": {
-    "value": "615e0623e4a459234fe74dff4e52838737d3b604",
+    "value": "c9f317aac1beb70975ecb3149ebe1402ef4705d8",
     "hashingAlgorithm": "SHA1"
   }
 }

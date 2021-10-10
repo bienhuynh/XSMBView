@@ -216,10 +216,8 @@ function staticsdata(data) {
                     + (!_64s[0].includes(g00_2) ? "text-true" : "text-fail") + '" data-c4="' + _64s[1] + '">' + _64s[1] + '</td>'
 
                 rl_html += '<td data-g00="' + element.Value + '" data-c4="' + _64s[1] + '" class="text-center text-loterry 3d-g00 '
-                    + (!_64s[0].includes(g00_2) && _3ds.includes(parseInt(element.Value[2])) ? "text-true" : "text-fail") + '">' + _3ds + '</td>';
-                
-                numberdaywing00 += !_64s[0].includes(g00_2) ? 1 : 0;
-                
+                    + (!_64s[0].includes(g00_2) && _3ds.includes(parseInt(element.Value[2])) ? "text-true" : "text-fail") + '">' + _3ds + '</td>';                
+                numberdaywing00 += !_64s[0].includes(g00_2) ? 1 : 0;                
                 oychart0.push(numberdaywing00 / (datelotterys.length - iday));
                 oychart1.push(oychart1[oychart1.length - 1] + (!_64s[0].includes(g00_2) ? investday + winday : investday));
                 profit_g00_64s = (!_64s[0].includes(g00_2) ? investday + winday : investday);

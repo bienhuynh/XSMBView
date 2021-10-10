@@ -118,7 +118,7 @@ d3.json("https://raw.githubusercontent.com/bienhuynh/XSMBView/main/data/resultlo
     oychart8.push(oychart8[oychart8.length - 1]);
     oychart9.push(oychart9[oychart9.length - 1]);
     var isfirst = true;
-    for (var iday = datelotterys.length - 1 - 32 - 0; iday >= 0; iday--) {
+    for (var iday = datelotterys.length - 1; iday >= 0; iday--) {
         _5day += 1;
         var date = datelotterys[iday];
         var datebefore = new Date(date);

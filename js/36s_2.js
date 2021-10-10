@@ -638,7 +638,7 @@ $(document).on('click', '.3d-g00', function () {
     var c4 = [strtmp[0], strtmp[1], strtmp[2], strtmp[3]];
     var _64s = getc4(c4);
     var _36s = get36s(_64s);
-    _64s.forEach(function (s, idx1) {
+    _36s.forEach(function (s, idx1) {
         _3ds.forEach(function (c, idx2) {
             result.push(c.toString() + s.toString());
         });
@@ -654,7 +654,8 @@ $(document).on('click', '.3d-g11', function () {
     var strtmp = $(this).attr('data-c4').split(",");
     var c4 = [strtmp[0], strtmp[1], strtmp[2], strtmp[3]];
     var _64s = getc4(c4);
-    _64s.forEach(function (s, idx1) {
+    var _36s = get36s(_64s);
+    _36s.forEach(function (s, idx1) {
         _3ds.forEach(function (c, idx2) {
             result.push(c.toString() + s.toString());
         });

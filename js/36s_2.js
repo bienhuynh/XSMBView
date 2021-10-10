@@ -96,7 +96,7 @@ function get36s(_64s) {
 
     var _36stmp = [];
     for (var l = 0; l < 100; l++) {
-        if (!_64s[l].includes(l)) _36stmp.push(l);
+        if (!_64s[l].includes(l)) _36stmp.push()
     }
     return _36stmp;
 }
@@ -625,8 +625,8 @@ $(document).on('click', '.number_c4', function () {
     var strtmp = $(this).attr('data-c4').split(",");
     var c4 = [strtmp[0], strtmp[1], strtmp[2], strtmp[3]];
     var _64s = getc4(c4);
-
-    $('#_36s_value').val(_64s);
+    var _36s = get36s(_64s);
+    $('#_36s_value').val(_36s);
 });
 
 

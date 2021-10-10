@@ -223,6 +223,7 @@ function staticsdata(data) {
                 profit_g00_3d_5days += (!_64s[0].includes(g00_2) && _3ds.includes(parseInt(element.Value[2])) ? (972.5 - (100 - _64s[0].length) * _3ds.length) * start_point : -1 * (100 - _64s[0].length) * _3ds.length * start_point);
                 oychart3.push(oychart3[oychart3.length - 1] + profit_g00_3d_5days);
             }
+
             if (element.NameLottery === "G11") {
                 var g11_2 = element.Value.substring(element.Value.length - 2, element.Value.length);
                 rl_html += '<td class="text-center text-loterry ' + (!_64s_g1[0].includes(g11_2) ? "text-true" : "text-fail") + '">' + element.Value + '</td>';

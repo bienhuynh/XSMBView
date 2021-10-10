@@ -96,7 +96,7 @@ function get36s(_64s) {
 
     var _36stmp = [];
     for (var l = 0; l < 100; l++) {
-        if(_64s[l] )
+        if (!_64s[l].includes(l)) _36stmp.push(l);
     }
     return _36stmp;
 }

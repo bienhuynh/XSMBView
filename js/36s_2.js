@@ -187,7 +187,7 @@ function staticsdata(data) {
 
         _64s = get64s(c4_global);
         _64s_g1 = get64s(d4_global);
-        if (_5day % 5 === 0 || iday == 0) {
+        if (_5day % 5 === 0 || iday === 0) {
             oxchart6.push(date);
             oxchart7.push(date);
             oxchart8.push(date);

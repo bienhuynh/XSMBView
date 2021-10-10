@@ -92,7 +92,7 @@ function get64s(c4) {
     return [_64stmp, c4];
 }
 
-function get36(c4) {
+function get36s(c4) {
 
     var _64stmp = [];
     for (var l = 0; l < 10; l++) {

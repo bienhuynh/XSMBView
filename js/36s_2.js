@@ -95,8 +95,8 @@ function get64s(c4) {
 function get36s(_64s) {
 
     var _36stmp = [];
-    for (var l = 0; l < _64s.length; l++) {
-        
+    for (var l = 0; l < 100; l++) {
+        if(_64s[l] )
     }
     return _36stmp;
 }

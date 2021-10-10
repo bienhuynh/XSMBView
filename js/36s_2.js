@@ -92,24 +92,13 @@ function get64s(c4) {
     return [_64stmp, c4];
 }
 
-function get36s(c4) {
+function get36s(_64s) {
 
-    var _64stmp = [];
-    for (var l = 0; l < 10; l++) {
-        c4.forEach(function (c, index) {
-            var p1 = c.toString() + l.toString();
-            var p2 = l.toString() + c.toString();
-
-            if (!_64stmp.includes(p1)) {
-                _64stmp.push(p1);
-            }
-
-            if (!_64stmp.includes(p2)) {
-                _64stmp.push(p2);
-            }
-        });
+    var _36stmp = [];
+    for (var l = 0; l < _64s.length; l++) {
+        
     }
-    return _64stmp;
+    return _36stmp;
 }
 
 function removechartAll() {

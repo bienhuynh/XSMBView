@@ -213,8 +213,7 @@ function staticsdata(data) {
                 var g00_2 = element.Value.substring(element.Value.length - 2, element.Value.length);
                 rl_html += '<td class="text-center text-loterry ' + (!_64s[0].includes(g00_2) ? "text-true" : "text-fail") + '">' + element.Value + '</td>';
                 rl_html += '<td class="text-center text-loterry number_c4 '
-                    + (!_64s[0].includes(g00_2) ? "text-true" : "text-fail") + '" data-c4="' + _64s[1] + '">' + _64s[1] + '</td>'
-
+                    + (!_64s[0].includes(g00_2) ? "text-true" : "text-fail") + '" data-c4="' + _64s[1] + '">' + _64s[1] + '</td>';
                 rl_html += '<td data-g00="' + element.Value + '" data-c4="' + _64s[1] + '" class="text-center text-loterry 3d-g00 '
                     + (!_64s[0].includes(g00_2) && _3ds.includes(parseInt(element.Value[2])) ? "text-true" : "text-fail") + '">' + _3ds + '</td>';                
                 numberdaywing00 += !_64s[0].includes(g00_2) ? 1 : 0;                
@@ -226,7 +225,7 @@ function staticsdata(data) {
             }
             if (element.NameLottery === "G11") {
                 var g11_2 = element.Value.substring(element.Value.length - 2, element.Value.length);
-                rl_html += '<td class="text-center text-loterry ' + (!_64s_g1[0].includes(g11_2) ? "text-true" : "text-fail") + '">' + element.Value + '</td>'
+                rl_html += '<td class="text-center text-loterry ' + (!_64s_g1[0].includes(g11_2) ? "text-true" : "text-fail") + '">' + element.Value + '</td>';
                 rl_html += '<td class="text-center text-loterry number_c4 '
                     + (!_64s_g1[0].includes(g11_2) ? "text-true" : "text-fail") + '" data-c4="' + _64s_g1[1] + '">' + _64s_g1[1] + '</td>';
                 rl_html += '<td data-g11="' + element.Value + '" data-c4="' + _64s_g1[1] + '" class="text-center text-loterry 3d-g11 '

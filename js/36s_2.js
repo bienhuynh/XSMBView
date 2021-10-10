@@ -168,7 +168,7 @@ function staticsdata(data) {
     oychart7.push(oychart7[oychart7.length - 1]);
     var numberdaywing00 = 0;
     var numberdaywing11 = 0;
-    for (var iday = datelotterys.length - 1 - 32; iday >= 0; iday--) {
+    for (var iday = datelotterys.length - 1; iday >= 0; iday--) {
         _5day += 1;
         var date = datelotterys[iday];
         oxchart0.push(date);

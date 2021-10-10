@@ -617,7 +617,7 @@ $(document).on('click', '.number_c4', function () {
     var c4 = [strtmp[0], strtmp[1], strtmp[2], strtmp[3]];
     var _64s = getc4(c4);
 
-    $('#_64s_value').val(_64s);
+    $('#_36s_value').val(_64s);
 });
 
 
